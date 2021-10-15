@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package chkpackage;
+
+
+// The greeting service definition.
+service ChineseCheckers {
+  // Sends a greeting
+  rpc createRoomCode(req) returns (rep) {}
+ 
+}
+
+message req{
+  string Token = 1;
+}
+
+// The response message containing the greetings
+message rep {
+    string Code = 1;
+}

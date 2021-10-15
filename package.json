@@ -1,0 +1,25 @@
+{
+  "name": "CHIENSE CHECKERS",
+  "version": "1.0.0",
+  "description": "",
+  
+  "target": "es5",
+  "main": "helloworld_pb.js",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.3.7",
+    "@grpc/proto-loader": "^0.6.5",
+    "firebase-admin": "^9.12.0",
+    "grpc": "^1.24.11",
+    "nodemon": "^2.0.13"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
